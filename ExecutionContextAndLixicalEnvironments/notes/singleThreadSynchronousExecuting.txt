@@ -1,0 +1,4 @@
+Single Threaded, Synchronous Execution
+
+Single Threaded and Synchronous - JavaScript - однопоточный язык программирования - это значит, что за один раз
+он может выполнить только одну команду, по порядку.
