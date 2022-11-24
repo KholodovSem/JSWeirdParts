@@ -1,0 +1,23 @@
+Default values 
+
+Мы может использовать значение по-умолчанию в функция, они будут задейстованы, если какой-то из параметров
+не будет передан.
+
+function greeting(name = "User"){
+  console.log("Hello " + name);
+}
+
+// Old versions JS:
+function greeting(name){
+  if(!name){
+    name = "User"
+  }
+
+  or
+
+  name = name || "User"
+
+  or
+
+  console.log("Hello " + name || "User");
+}
