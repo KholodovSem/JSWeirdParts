@@ -20,12 +20,6 @@ var john = {
 john.__proto__ = person;
 
 
-/* 
-    //* for ... in 
-    проходит по перечисляемым свойствам объекта.
-    for (local variable in object) {}
-*/
-
 for (let prop in john) {
     // console.log(prop); //It's property 
     // console.log(john[prop]); //It's key inculdes prototype methods and prop.
