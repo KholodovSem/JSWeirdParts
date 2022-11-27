@@ -1,0 +1,11 @@
+Inheritance: 
+
+One object gets access to the properties 
+and methods of another object.
+
+----------------------------------------------
+
+Classical Inheritance vs Prototype Inheritance
+
+It's a way to use joint methods and properties
+
